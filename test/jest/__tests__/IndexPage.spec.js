@@ -12,6 +12,14 @@ describe('IndexPage', () => {
   })
 
 })
+
+test('Name Maythawat Mahawan available on file ', () => {
+  const wrapper = shallowMount(FunctionPage)
+  expect(wrapper.find('form > input ').exists("Maythawat","Mahawan","6404101332")).toBe(true)
+
+})
+
+
 it('check text content to be as defined in variable', () => {
   const wrapper = shallowMount(IndexPage, {
     data () {
