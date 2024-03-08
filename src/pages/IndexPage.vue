@@ -12,6 +12,9 @@ export default {
   data() {
     return {
       title: 'Vue is awesome.',
+      firstName:'Maythawat',
+      LastName:'Mahawan',
+      id:"6404101332"
     }
   },
 }
